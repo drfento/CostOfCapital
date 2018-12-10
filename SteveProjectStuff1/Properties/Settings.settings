@@ -5,9 +5,9 @@
     <Setting Name="OPDSConnection" Type="(Connection string)" Scope="Application">
       <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;ConnectionString&gt;DSN=OPDS;UID=OPERATIONS;PWD=OPERATIONS;SERVER=OPDS.COMPOSERS.CAXTON.COM;&lt;/ConnectionString&gt;
+  &lt;ConnectionString&gt;DSN=OPDS;UID=#;PWD=#;SERVER=#;&lt;/ConnectionString&gt;
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
-      <Value Profile="(Default)">DSN=OPDS;UID=OPERATIONS;PWD=OPERATIONS;SERVER=OPDS.COMPOSERS.CAXTON.COM;</Value>
+      <Value Profile="(Default)">DSN=OPDS;UID=#;PWD=#;SERVER=#;</Value>
     </Setting>
   </Settings>
 </SettingsFile>
