@@ -26,7 +26,7 @@ namespace CostOfCapital.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("DSN=OPDS;UID=OPERATIONS;PWD=OPERATIONS;SERVER=OPDS.COMPOSERS.CAXTON.COM;")]
+        [global::System.Configuration.DefaultSettingValueAttribute("DSN=OPDS;UID=#;PWD=#;SERVER=#.#.#.#;")]
         public string OPDSConnection {
             get {
                 return ((string)(this["OPDSConnection"]));
