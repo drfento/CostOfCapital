@@ -10,7 +10,7 @@ namespace CostOfCapital
 
         //Connect to the database, create connectivity and command elements
         OdbcConnection dbConnect = new OdbcConnection();
-        string myConnString = Properties.Settings.Default.OPDSConnection;
+        string myConnString = Properties.Settings.Default.#Connection;
 
         //Run query, return data reader
         public OdbcDataReader RunQuery(String SSQL)
