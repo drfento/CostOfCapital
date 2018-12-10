@@ -11,13 +11,13 @@ namespace CostOfCapital
         public void GenerateFile(CapitalFrm cform)
         {
             // Test paths
-            //string archivefileloc = @"\\cnjfile00\OperCommon\Operations\EQUITIES\Cost of Capital\Temp\";
-            //string tempfileloc = @"\\cnjfile00\OperCommon\Operations\EQUITIES\Cost of Capital\Temp\";
+            //string archivefileloc = @"\\#\Temp\";
+            //string tempfileloc = @"\\#\Cost of Capital\Temp\";
             //string finalfileloc = @"C:\Temp\";
 
-            string archivefileloc = @"\\cnjfile00\OperCommon\Operations\EQUITIES\Cost of Capital\";
-            string tempfileloc = @"\\cnjfile00\opercommon\gdk_divadjustment\MurexFiles\Temp\";
-            string finalfileloc = @"\\cnjfile00\opercommon\gdk_divadjustment\MurexFiles\";
+            string archivefileloc = @"\\#\Cost of Capital\";
+            string tempfileloc = @"\\#\Temp\";
+            string finalfileloc = @"\\#\MurexFiles\";
 
             string finalfilename = DateTime.Now.ToString("yyyyMMdd") + DateTime.Now.ToString("HHmmss") + "_COSTCAPSCF_new.csv";
             string archivefilename = DateTime.Now.ToString("MMMM") + "_" + DateTime.Now.ToString("yyyy") + "_COSTCAPSCF.xls";
